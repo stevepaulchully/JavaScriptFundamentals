@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <script>
+            function checkAge(age) {
+                if (age > 18) {
+                    return true;
+                } else {
+                    // ...
+                    return confirm('Did parents allow you?');
+                }
+                }
+
+                ///Will the function work differently if else is removed?  -  No, There would be no difference in the behaviour of the two code snippets
+
+                function checkAge(age) {
+                if (age > 18) {
+                    return true;
+                }
+                // ...
+                return confirm('Did parents allow you?');
+                }
+                        </script>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
