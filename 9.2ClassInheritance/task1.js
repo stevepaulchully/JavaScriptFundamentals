@@ -14,4 +14,4 @@ class Rabbit extends Animal {
 }
 
 let rabbit = new Rabbit("White Rabbit"); // ok now
-alert(rabbit.name);
+console.log(rabbit.name);

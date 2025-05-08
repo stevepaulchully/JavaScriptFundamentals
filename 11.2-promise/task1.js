@@ -4,7 +4,7 @@ let promise = new Promise(function(resolve, reject) {
   setTimeout(() => resolve(2), 1000);
 });
 
-promise.then(alert);
+promise.then(console.log);
 
 
 //The Output would be 1

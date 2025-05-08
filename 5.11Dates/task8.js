@@ -28,12 +28,12 @@ function formatDate(date) {
   return d.slice(0, 3).join('.') + ' ' + d.slice(3).join(':');
 }
 
-alert( formatDate(new Date(new Date - 1)) ); 
+console.log( formatDate(new Date(new Date - 1)) ); 
 
-alert( formatDate(new Date(new Date - 30 * 1000)) ); 
+console.log( formatDate(new Date(new Date - 30 * 1000)) ); 
 
-alert( formatDate(new Date(new Date - 5 * 60 * 1000)) ); 
+console.log( formatDate(new Date(new Date - 5 * 60 * 1000)) ); 
 
-alert( formatDate(new Date(new Date - 86400 * 1000)) );
+console.log( formatDate(new Date(new Date - 86400 * 1000)) );
 
 

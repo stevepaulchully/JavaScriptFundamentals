@@ -5,6 +5,6 @@ function getLastDayOfMonth(year, month) {
   return date.getDate();
 }
 
-alert( getLastDayOfMonth(2012, 0) ); 
-alert( getLastDayOfMonth(2012, 1) ); 
-alert( getLastDayOfMonth(2013, 1) ); 
+console.log( getLastDayOfMonth(2012, 0) ); 
+console.log( getLastDayOfMonth(2012, 1) ); 
+console.log( getLastDayOfMonth(2013, 1) ); 

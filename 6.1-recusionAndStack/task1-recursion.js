@@ -3,4 +3,4 @@ function sumTo(n) {
   return n + sumTo(n - 1);
 }
 
-alert( sumTo(100) );
+console.log( sumTo(100) );

@@ -14,7 +14,7 @@ let list = {
 
 function printList(list) {
 
-  alert(list.value); 
+  console.log(list.value); 
 
   if (list.next) {
     printList(list.next); 

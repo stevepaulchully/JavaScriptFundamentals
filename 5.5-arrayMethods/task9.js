@@ -10,6 +10,6 @@ let arr = [ pete, john, mary ];
 
 sortByAge(arr);
 
-alert(arr[0].name);
-alert(arr[1].name);
-alert(arr[2].name);
+console.log(arr[0].name);
+console.log(arr[1].name);
+console.log(arr[2].name);

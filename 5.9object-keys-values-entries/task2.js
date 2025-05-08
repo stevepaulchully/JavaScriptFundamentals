@@ -8,4 +8,4 @@ let user = {
   age: 30
 };
 
-alert( count(user) );
+console.log( count(user) );

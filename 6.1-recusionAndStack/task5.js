@@ -18,7 +18,7 @@ function printReverseList(list) {
     printReverseList(list.next);
   }
 
-  alert(list.value);
+  console.log(list.value);
 }
 
 printReverseList(list);

@@ -6,4 +6,4 @@ function sumTo(n) {
   return sum;
 }
 
-alert( sumTo(100) );
+console.log( sumTo(100) );

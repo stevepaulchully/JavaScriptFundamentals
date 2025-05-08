@@ -26,7 +26,7 @@ async function demoGithubUser() {
       break;
     } catch(err) {
       if (err instanceof HttpError && err.response.status == 404) {
-        alert("No such user, please reenter.");
+        console.log("No such user, please reenter.");
       } else {
         throw err;
       }
@@ -34,7 +34,7 @@ async function demoGithubUser() {
   }
 
 
-  alert(`Full name: ${user.name}.`);
+  console.log(`Full name: ${user.name}.`);
   return user;
 }
 

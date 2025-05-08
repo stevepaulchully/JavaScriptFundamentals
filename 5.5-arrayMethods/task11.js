@@ -8,4 +8,4 @@ let mary = { name: "Mary", age: 29 };
 
 let arr = [ john, pete, mary ];
 
-alert( getAverageAge(arr) ); 
+console.log( getAverageAge(arr) ); 

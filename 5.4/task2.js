@@ -19,4 +19,4 @@ function sumInput() {
   return sum;
 }
 
-alert( sumInput() );
+console.log( sumInput() );

@@ -7,4 +7,4 @@ function getWeekDay(date) {
 }
 
 let date = new Date(2014, 0, 3); // 3 Jan 2014
-alert( getWeekDay(date) );
+console.log( getWeekDay(date) );

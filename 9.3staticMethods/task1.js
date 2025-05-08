@@ -7,4 +7,4 @@ class Rabbit extends Object {
 
 let rabbit = new Rabbit("Rab");
 
-alert( rabbit.hasOwnProperty('name') ); // true
+console.log( rabbit.hasOwnProperty('name') ); // true

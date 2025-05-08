@@ -14,4 +14,4 @@ let salaries = {
   "Mary": 250
 };
 
-alert( sumSalaries(salaries) );
+console.log( sumSalaries(salaries) );

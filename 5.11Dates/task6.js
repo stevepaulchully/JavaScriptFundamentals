@@ -6,4 +6,4 @@ function getSecondsToday() {
   let diff = now - today;
   return Math.round(diff / 1000); }
 
-alert( getSecondsToday() );
+console.log( getSecondsToday() );

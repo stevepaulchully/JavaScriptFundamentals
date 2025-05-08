@@ -10,4 +10,4 @@ async function loadJson(url) {
 }
 
 loadJson('https://javascript.info/no-such-user.json')
-  .catch(alert); 
+  .catch(console.log); 
